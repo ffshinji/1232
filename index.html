@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="refresh" content="0; url=dashboard.html" />
+    <script type="text/javascript">
+        window.location.href = "dashboard.html";
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoL Draft Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beaufort+Logo&family=Spiegel:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="background-globes"></div>
+
+    <div id="app">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <span class="full-logo">FF LEGENDS HUB</span>
+                <span class="short-logo">FF</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="dashboard.html"
+                        style="text-decoration:none; color:inherit; display:flex; width:100%; align-items:center; gap:15px;">
+                        <span class="nav-icon">📊</span>
+                        <span class="nav-text">Önizleme</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="draft.html"
+                        style="text-decoration:none; color:inherit; display:flex; width:100%; align-items:center; gap:15px;">
+                        <span class="nav-icon">⚔️</span>
+                        <span class="nav-text">Draft Yap</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="matches.html"
+                        style="text-decoration:none; color:inherit; display:flex; width:100%; align-items:center; gap:15px;">
+                        <span class="nav-icon">📜</span>
+                        <span class="nav-text">Geçmiş Maçlar</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <section id="view-draft-setup" class="content-view">
+                <div class="setup-container">
+                    <div class="setup-header">
+                        <h2>DRAFT SETUP</h2>
+                    </div>
+                    <div class="setup-form">
+                        <p style="text-align:center; color:var(--hextech-gold);">Yönlendiriliyorsunuz...</p>
+                        <a href="dashboard.html" style="display:block; text-align:center; color:#fff;">Eğer sayfa açılmazsa buraya tıklayın.</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
